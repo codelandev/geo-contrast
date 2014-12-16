@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = GeoContrast::VERSION
   spec.authors       = ["CODELAND"]
   spec.email         = ["contato@codeland.com.br"]
-  spec.summary       = %q{This summary sucks and should be fixed}
-  spec.description   = %q{This description sucks and should be fixed}
-  spec.homepage      = "https://github.com/codelandev/geocontrast"
+  spec.summary       = %q{GeoContrast allows you to transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or an establishments.}
+  spec.description   = %q{GeoContrast allows you to transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or an establishments.}
+  spec.homepage      = "https://github.com/codelandev/geo-contrast"
   spec.license       = "MIT"
 
   spec.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
