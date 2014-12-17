@@ -58,6 +58,7 @@ $('.your_class').geoContrast({format: "long", options_gmaps: {types: ['(cities)'
 ```
 
 The options are:
+
 1. 'geocode' -> For addresses.
 2. '(regions)' -> For administrative regions.
 3. 'establishment' -> For businesses.
