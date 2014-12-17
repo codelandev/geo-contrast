@@ -1,5 +1,5 @@
 # GeoContrast
-GeoContrast allows you to transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or an establishments. 
+GeoContrast allows you to transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or an establishments.
 
 ## Installation
 Install it yourself as:
@@ -15,7 +15,7 @@ gem 'geo_contrast'
 And then execute:
 
     $ bundle
-    
+
 ## Usage
 In `application.js` insert the following line:
 
@@ -47,7 +47,7 @@ $('.your_class').geoContrast({format: "short"});
 ```
 This one returns the long version of the address. Eg. "San Francisco, California, United States of America":
 ```javascript
-$('.your_class').geoContrast({format: "long"});
+$('.your_class').geoContrast({format: "formatted"});
 ```
 
 ### Gmaps Options
@@ -56,6 +56,16 @@ If you want to search just for cities, for example, you can pass a option to spe
 ```javascript
 $('.your_class').geoContrast({format: "long", options_gmaps: {types: ['(cities)']}});
 ```
+
+## ROADMAP
+
+Here is the next things that will be (probably) implemented:
+
+1. Better way to handle coordinate fields (latitude, longitude)
+2. Find a way to put Google Maps easily
+3. Easy integration with SimpleForm
+
+**...and more**
 
 The options are:
 
