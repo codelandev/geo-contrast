@@ -54,8 +54,15 @@ $('.your_class').geoContrast({format: "formatted"});
 
 If you want to search just for cities, for example, you can pass a option to specify this:
 ```javascript
-$('.your_class').geoContrast({format: "long", options_gmaps: {types: ['(cities)']}});
+$('.your_class').geoContrast({format: "formatted", options_gmaps: {types: ['(cities)']}});
 ```
+
+The options are:
+
+1. 'geocode' -> For addresses.
+2. '(regions)' -> For administrative regions.
+3. 'establishment' -> For businesses.
+4. '(cities)' -> For just city names.
 
 ## ROADMAP
 
@@ -66,13 +73,6 @@ Here is the next things that will be (probably) implemented:
 3. Easy integration with SimpleForm
 
 **...and more**
-
-The options are:
-
-1. 'geocode' -> For addresses.
-2. '(regions)' -> For administrative regions.
-3. 'establishment' -> For businesses.
-4. '(cities)' -> For just city names.
 
 ## Contributing
 1. Fork it ( https://github.com/codelandev/geo-contrast/fork )
