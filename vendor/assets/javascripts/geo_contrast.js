@@ -209,20 +209,23 @@ $(function(){
           }
         });
 
-        // $(document).on('keydown','.geocontrast',function(e){
-        //   switch(e.keyCode){
-        //     case 9:
-        //       if (this.options.assign_through_tab){
-        //         this.find_address(this.first_hint(), function(){
-        //           this.sync();
-        //         });
-        //       }
-        //     break;
-        //     case 13:
-        //       e.preventDefault();
-        //     break;
-        //   }
-        // });
+        $(document).on('keydown','.geocontrast',function(e){
+          switch(e.keyCode){
+            case 9:
+              if (this.options.assign_through_tab){
+                this.find_address(this.first_hint(), function(){
+                  this.sync();
+                });
+              }
+            break;
+            case 13:
+              e.preventDefault();
+              this.find_address(this.first_hint(), function(){
+                this.sync();
+              });
+            break;
+          }
+        });
 
         $(document).on('click','.pin_geocontrast',function(){
           var input = $(this).prev()[0];
