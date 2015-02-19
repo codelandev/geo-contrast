@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = GeoContrast::VERSION
   spec.authors       = ["CODELAND"]
   spec.email         = ["contato@codeland.com.br"]
-  spec.summary       = %q{GeoContrast allows you to transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or an establishments.}
-  spec.description   = %q{GeoContrast allows you to transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or an establishments.}
+  spec.summary       = %q{Transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or establishments.}
+  spec.description   = %q{Transform a simple text field in a Google Maps Autocomplete search field, bringing the name of streets, cities or establishments.}
   spec.homepage      = "https://github.com/codelandev/geo-contrast"
   spec.license       = "MIT"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_dependency "jquery-rails"
+  spec.add_dependency "jquery-rails", "3.1.2"
 end
